@@ -5,6 +5,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 import { MaterialModule } from '../material.module';
+import { GameModule } from '../game/game.module';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { MaterialModule } from '../material.module';
   imports: [
     CommonModule,
     MaterialModule,
+    GameModule,
   ],
   exports: [
     HeaderComponent,

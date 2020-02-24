@@ -1,1 +1,11 @@
-<p>keyboard works!</p>
+<div class="keyboard-container">
+    <div class="first-line line">
+        <app-touch *ngFor="let letter of lettersOnFirstLine" [letter]="letter"></app-touch>
+    </div>
+    <div class="second-line line">
+        <app-touch *ngFor="let letter of lettersOnSecondLine" [letter]="letter"></app-touch>
+    </div>
+    <div class="third-line line">
+        <app-touch *ngFor="let letter of lettersOnThirdLine" [letter]="letter"></app-touch>
+    </div>
+</div>
