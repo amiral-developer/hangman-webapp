@@ -10,4 +10,9 @@
     font-size: 1.5vw;
     margin: 1vw;
     background-color: white;
+    box-shadow: 5px 5px 5px black;
+}
+
+.touch:active {
+    box-shadow: 1px 1px 1px black;
 }
