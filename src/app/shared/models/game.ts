@@ -2,9 +2,9 @@ import { IUser } from './user';
 import { IWord } from './word';
 
 export interface IGame {
-    user: IUser;
-    words: IWord[];
-    currentWord: IWord;
+    user?: IUser;
+    words?: IWord[];
+    currentWord?: IWord;
 }
 
 export class Game implements IGame {
