@@ -16,6 +16,6 @@
     </div>
 </div>
 
-<div *ngIf="!(game$ | async).ready" class="spinner">
+<div *ngIf="(game$ | async).ready === false" class="spinner">
     <mat-progress-spinner mode="indeterminate"></mat-progress-spinner>
 </div>

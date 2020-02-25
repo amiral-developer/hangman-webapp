@@ -1,3 +1,5 @@
+import { START_LIFES } from '../config-game';
+
 export interface IWord {
     text?: string;
     characters?: string[];
@@ -34,7 +36,7 @@ export class Word implements IWord {
         this.charactersAttempted = [];
         this.charactersFound = [];
         this.displayClue = false;
-        this.lifesRemaining = 6;
+        this.lifesRemaining = START_LIFES;
         this.isLose = false;
         this.isWin = false;
     }
@@ -47,7 +49,7 @@ export class Word implements IWord {
             }
 
             return '';
-        })
+        });
     }
 
     public attemptCharacter(character: string): boolean {

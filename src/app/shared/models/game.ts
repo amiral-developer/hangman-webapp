@@ -1,5 +1,6 @@
 import { IUser } from './user';
 import { IWord } from './word';
+import { START_LIFES } from '../config-game';
 
 export interface IGame {
     user?: IUser;
@@ -29,12 +30,12 @@ export class Game implements IGame {
         }
 
         if (this.currentWord) {
-            // FIX ME lose objectfunctions 
+            // FIX ME lose object functions (probably interface returned)
             // this.currentWord.reset();
             this.currentWord.charactersAttempted = [];
             this.currentWord.charactersFound = [];
             this.currentWord.displayClue = false;
-            this.currentWord.lifesRemaining = 6;
+            this.currentWord.lifesRemaining = START_LIFES;
             this.currentWord.isLose = false;
             this.currentWord.isWin = false;
         }
@@ -54,7 +55,6 @@ export class Game implements IGame {
             this.currentWord.characters.filter(character =>
                 !this.currentWord.charactersAttempted.includes(character));
 
-
         const random = Math.floor(Math.random() * goodCharactersNotAttempted.length);
 
         this.currentWord.attemptCharacter(goodCharactersNotAttempted[random]);
@@ -65,6 +65,7 @@ export class Game implements IGame {
 
         copy.words = this.words;
         copy.currentWord = this.currentWord;
+        copy.ready = this.ready;
 
         return copy;
     }

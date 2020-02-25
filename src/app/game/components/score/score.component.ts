@@ -12,12 +12,14 @@ export class ScoreComponent implements OnChanges {
   @Input() public user: IUser;
   public wordsFound: number;
   public lifesRemaining: number;
+  public jokersRemaining: number;
 
   constructor() { }
 
   ngOnChanges(): void {
     if (this.user) {
       this.wordsFound = this.user.wordsFound.length;
+      this.jokersRemaining = this.user.jokers;
     }
 
     if (this.word) {
