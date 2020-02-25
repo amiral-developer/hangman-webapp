@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { IState } from 'src/app/shared/store/state';
+import { Store } from '@ngrx/store';
+import { changeWord } from 'src/app/shared/store/actions/game.action';
 
 @Component({
   selector: 'app-actions',
@@ -7,9 +10,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ActionsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private store: Store<IState>) { }
 
   ngOnInit(): void {
   }
 
+  public changeWord() {
+    this.store.dispatch(changeWord());
+
+  }
 }
