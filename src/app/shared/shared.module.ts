@@ -1,17 +1,17 @@
-import { CommonModule } from '@angular/common';
-import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
-import { EffectsModule } from '@ngrx/effects';
+import { CommonModule } from '@angular/common';
 import { StoreModule } from '@ngrx/store';
-import { GameEffects } from './store/effects/game.effects';
 import { gameReducer } from './store/reducers/game.reducer';
+import { EffectsModule } from '@ngrx/effects';
+import { GameEffects } from './store/effects/game.effects';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [],
   imports: [
     CommonModule,
     HttpClientModule,
-    StoreModule.forRoot({ game: gameReducer }),
+    StoreModule.forRoot({ gameState: gameReducer }),
     EffectsModule.forRoot([GameEffects]),
   ]
 })

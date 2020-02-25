@@ -3,21 +3,30 @@ import { Game, IGame } from '../../models/game';
 import { User } from '../../models/user';
 import { attemptCharacter, createUser, wordsLoaded } from '../actions/game.action';
 
-export const initialState: IGame = new Game(new User(''));
+export const initialState: { game: IGame } = { game: new Game(new User('')) };
 
 const lGameReducer = createReducer(initialState,
-    on(createUser, (game, { name }) => {
+    on(createUser, (state, { name }) => {
+        const game = state.game.copy();
+
         game.user.name = name;
-        return game;
+
+        return { ...state, game };
     }),
-    on(wordsLoaded, (game, { words }) => {
+    on(wordsLoaded, (state, { words }) => {
+        const game = state.game.copy();
+
         game.words = words;
         game.selectRandomWord();
-        return game;
+
+        return { ...state, game };
     }),
-    on(attemptCharacter, (game, { character }) => {
+    on(attemptCharacter, (state, { character }) => {
+        const game = state.game.copy();
+
         game.currentWord.attemptCharacter(character);
-        return game;
+
+        return { ...state, game };
     }),
 );
 

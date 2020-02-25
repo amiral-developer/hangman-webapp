@@ -7,6 +7,7 @@ export interface IWord {
 
     fillWord: () => string[];
     attemptCharacter: (character: string) => boolean;
+    copy: () => IWord;
 }
 
 export class Word implements IWord {
@@ -15,7 +16,8 @@ export class Word implements IWord {
     public charactersFound: string[];
 
     constructor(public text: string, public clue?: string) {
-        this.characters = text.split('');
+        this.text = this.text.toUpperCase();
+        this.characters = this.text.split('');
         this.charactersAttempted = [];
         this.charactersFound = [];
     }
@@ -40,5 +42,14 @@ export class Word implements IWord {
         }
 
         return false;
+    }
+
+    public copy(): IWord {
+        const copy = new Word(this.text, this.clue);
+
+        copy.charactersAttempted = this.charactersAttempted;
+        copy.charactersFound = this.charactersFound;
+
+        return copy;
     }
 }

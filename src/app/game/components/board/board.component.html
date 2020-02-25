@@ -1,7 +1,7 @@
 <div class="board">
     <div class="board-screen">
         <div class="board-informations">
-            <app-word></app-word>
+            <app-word [word]="(game$ | async).currentWord"></app-word>
             <div class="board-actions">
                 <app-actions></app-actions>
                 <app-score></app-score>

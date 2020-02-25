@@ -1,18 +1,23 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
+import { IWord } from 'src/app/shared/models/word';
 
 @Component({
   selector: 'app-word',
   templateUrl: './word.component.html',
   styleUrls: ['./word.component.scss']
 })
-export class WordComponent implements OnInit {
-  @Input() public word: string = 'SALUT';
+export class WordComponent implements OnChanges {
+  @Input() public word: IWord;
   public wordCharacters: string[];
 
   constructor() { }
 
-  ngOnInit(): void {
-    this.wordCharacters = this.word.split('');
+  ngOnChanges(): void {
+    console.log(this.word);
+
+    if (this.word) {
+      this.wordCharacters = this.word.fillWord();
+    }
   }
 
 }

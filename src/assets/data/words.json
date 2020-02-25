@@ -93,10 +93,6 @@
     },
     {
         "clue": "Lorem ipsum dolor sit amet.",
-        "text": "J'onn J'onzz"
-    },
-    {
-        "clue": "Lorem ipsum dolor sit amet.",
         "text": "Jessica Cruz"
     },
     {
@@ -241,7 +237,7 @@
     },
     {
         "clue": "Lorem ipsum dolor sit amet.",
-        "text": "Flèche noire"
+        "text": "Fleche noire"
     },
     {
         "clue": "Lorem ipsum dolor sit amet.",
@@ -277,7 +273,7 @@
     },
     {
         "clue": "Lorem ipsum dolor sit amet.",
-        "text": "Jean Grey/Phénix"
+        "text": "Phenix"
     },
     {
         "clue": "Lorem ipsum dolor sit amet.",
@@ -321,11 +317,7 @@
     },
     {
         "clue": "Lorem ipsum dolor sit amet.",
-        "text": "Œil-de-Faucon"
-    },
-    {
-        "clue": "Lorem ipsum dolor sit amet.",
-        "text": "La Panthère noire"
+        "text": "La Panthere noire"
     },
     {
         "clue": "Lorem ipsum dolor sit amet.",
@@ -362,10 +354,6 @@
     {
         "clue": "Lorem ipsum dolor sit amet.",
         "text": "Star-Lord"
-    },
-    {
-        "clue": "Lorem ipsum dolor sit amet.",
-        "text": "Le Surfer d'argent"
     },
     {
         "clue": "Lorem ipsum dolor sit amet.",
@@ -441,10 +429,6 @@
     },
     {
         "clue": "Lorem ipsum dolor sit amet.",
-        "text": "Circé"
-    },
-    {
-        "clue": "Lorem ipsum dolor sit amet.",
         "text": "Darkseid"
     },
     {
@@ -469,7 +453,7 @@
     },
     {
         "clue": "Lorem ipsum dolor sit amet.",
-        "text": "Général Zod"
+        "text": "General Zod"
     },
     {
         "clue": "Lorem ipsum dolor sit amet.",
@@ -506,14 +490,6 @@
     {
         "clue": "Lorem ipsum dolor sit amet.",
         "text": "Lobo"
-    },
-    {
-        "clue": "Lorem ipsum dolor sit amet.",
-        "text": "L'Empoisonneuse"
-    },
-    {
-        "clue": "Lorem ipsum dolor sit amet.",
-        "text": "L’Épouvantail"
     },
     {
         "clue": "Lorem ipsum dolor sit amet.",
@@ -557,10 +533,6 @@
     },
     {
         "clue": "Lorem ipsum dolor sit amet.",
-        "text": "Ra'sal Ghul"
-    },
-    {
-        "clue": "Lorem ipsum dolor sit amet.",
         "text": "Red Hood"
     },
     {
@@ -594,10 +566,6 @@
     {
         "clue": "Lorem ipsum dolor sit amet.",
         "text": "Reverse-Flash"
-    },
-    {
-        "clue": "Lorem ipsum dolor sit amet.",
-        "text": "L'Abomination"
     },
     {
         "clue": "Lorem ipsum dolor sit amet.",
@@ -641,10 +609,6 @@
     },
     {
         "clue": "Lorem ipsum dolor sit amet.",
-        "text": "Le Caïd"
-    },
-    {
-        "clue": "Lorem ipsum dolor sit amet.",
         "text": "Carnage"
     },
     {
@@ -653,15 +617,7 @@
     },
     {
         "clue": "Lorem ipsum dolor sit amet.",
-        "text": "Crâne rouge"
-    },
-    {
-        "clue": "Lorem ipsum dolor sit amet.",
         "text": "Crossbones"
-    },
-    {
-        "clue": "Lorem ipsum dolor sit amet.",
-        "text": "Le Démolisseur"
     },
     {
         "clue": "Lorem ipsum dolor sit amet.",
@@ -701,19 +657,11 @@
     },
     {
         "clue": "Lorem ipsum dolor sit amet.",
-        "text": "L'Homme pourpre"
-    },
-    {
-        "clue": "Lorem ipsum dolor sit amet.",
-        "text": "L'Homme-taupe"
-    },
-    {
-        "clue": "Lorem ipsum dolor sit amet.",
         "text": "Kang"
     },
     {
         "clue": "Lorem ipsum dolor sit amet.",
-        "text": "Le Fléau"
+        "text": "Le Fleau"
     },
     {
         "clue": "Lorem ipsum dolor sit amet.",
@@ -721,19 +669,11 @@
     },
     {
         "clue": "Lorem ipsum dolor sit amet.",
-        "text": "Le Lézard"
-    },
-    {
-        "clue": "Lorem ipsum dolor sit amet.",
         "text": "Loki"
     },
     {
         "clue": "Lorem ipsum dolor sit amet.",
-        "text": "Magnéto"
-    },
-    {
-        "clue": "Lorem ipsum dolor sit amet.",
-        "text": "Le Maître de corvée"
+        "text": "Magneto"
     },
     {
         "clue": "Lorem ipsum dolor sit amet.",
@@ -749,27 +689,7 @@
     },
     {
         "clue": "Lorem ipsum dolor sit amet.",
-        "text": "MODOK"
-    },
-    {
-        "clue": "Lorem ipsum dolor sit amet.",
         "text": "Mystique"
-    },
-    {
-        "clue": "Lorem ipsum dolor sit amet.",
-        "text": "Onslaught"
-    },
-    {
-        "clue": "Lorem ipsum dolor sit amet.",
-        "text": "Le Phénix noir"
-    },
-    {
-        "clue": "Lorem ipsum dolor sit amet.",
-        "text": "Sebastian Shaw"
-    },
-    {
-        "clue": "Lorem ipsum dolor sit amet.",
-        "text": "Séléné"
     },
     {
         "clue": "Lorem ipsum dolor sit amet.",
@@ -801,6 +721,6 @@
     },
     {
         "clue": "Lorem ipsum dolor sit amet.",
-        "text": "Vipère"
+        "text": "Vipere"
     }
 ]
