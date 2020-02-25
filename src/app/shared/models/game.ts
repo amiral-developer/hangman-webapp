@@ -8,6 +8,7 @@ export interface IGame {
 
     selectRandomWord: () => boolean;
     giveClue: () => void;
+    giveCharacter: () => void;
     copy: () => IGame;
 }
 
@@ -36,6 +37,17 @@ export class Game implements IGame {
 
     public giveClue() {
         this.currentWord.displayClue = true;
+    }
+
+    public giveCharacter() {
+        const goodCharactersNotAttempted =
+            this.currentWord.characters.filter(character =>
+                !this.currentWord.charactersAttempted.includes(character));
+
+
+        const random = Math.floor(Math.random() * goodCharactersNotAttempted.length);
+
+        this.currentWord.attemptCharacter(goodCharactersNotAttempted[random]);
     }
 
     public copy(): IGame {

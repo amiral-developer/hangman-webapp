@@ -1,7 +1,7 @@
 import { createReducer, on } from '@ngrx/store';
 import { Game, IGame } from '../../models/game';
 import { User } from '../../models/user';
-import { attemptCharacter, createUser, wordsLoaded, changeWord, giveClue } from '../actions/game.action';
+import { attemptCharacter, createUser, wordsLoaded, changeWord, giveClue, giveCharacter } from '../actions/game.action';
 
 export const initialState: { game: IGame } = { game: new Game(new User('')) };
 
@@ -39,6 +39,13 @@ const lGameReducer = createReducer(initialState,
         const game = state.game.copy();
 
         game.giveClue();
+
+        return { ...state, game };
+    }),
+    on(giveCharacter, state => {
+        const game = state.game.copy();
+
+        game.giveCharacter();
 
         return { ...state, game };
     }),
