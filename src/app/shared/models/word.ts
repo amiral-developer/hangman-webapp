@@ -41,6 +41,14 @@ export class Word implements IWord {
 
     public fillWord(): string[] {
         return this.characters.map(character => {
+            if (character === ' ') {
+                return 'SPACE';
+            }
+
+            if (character === '-') {
+                return 'TILT';
+            }
+
             if (this.charactersFound.includes(character)) {
                 return character;
             }
