@@ -5,6 +5,7 @@ export interface IGame {
     user?: IUser;
     words?: IWord[];
     currentWord?: IWord;
+    ready?: boolean;
 
     selectRandomWord: () => boolean;
     giveClue: () => void;
@@ -15,9 +16,11 @@ export interface IGame {
 export class Game implements IGame {
     public words: IWord[];
     public currentWord: IWord;
+    public ready?: boolean;
 
     constructor(public user: IUser) {
         this.words = [];
+        this.ready = false;
     }
 
     public selectRandomWord(): boolean {

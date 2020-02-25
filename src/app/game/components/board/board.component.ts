@@ -24,6 +24,7 @@ export class BoardComponent implements OnInit {
 
     this.game$.subscribe(game => {
       if (game.currentWord) {
+
         if (game.currentWord.isLose) {
           this.openDialog('Perdu !', 'Retente ta chance avec ce nouveau mot ;)', () => {
             this.store.dispatch(changeWord());

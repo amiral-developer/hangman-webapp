@@ -18,6 +18,7 @@ const lGameReducer = createReducer(initialState,
 
         game.words = words;
         game.selectRandomWord();
+        game.ready = true;
 
         return { ...state, game };
     }),

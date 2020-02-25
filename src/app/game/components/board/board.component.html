@@ -4,7 +4,7 @@
             <app-word [word]="(game$ | async).currentWord"></app-word>
             <div class="board-actions">
                 <app-actions></app-actions>
-                <app-score></app-score>
+                <app-score [word]="(game$ | async).currentWord" [user]="(game$ | async).user"></app-score>
             </div>
         </div>
         <div class="board-hangman">
@@ -14,4 +14,8 @@
     <div class="board-keyboard">
         <app-keyboard [word]="(game$ | async).currentWord"></app-keyboard>
     </div>
+</div>
+
+<div *ngIf="!(game$ | async).ready" class="spinner">
+    <mat-progress-spinner mode="indeterminate"></mat-progress-spinner>
 </div>
