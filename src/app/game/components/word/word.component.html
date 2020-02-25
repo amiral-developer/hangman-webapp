@@ -1,6 +1,9 @@
 <div class="word-container">
     <div class="boxes-container">
-        <div *ngFor="let character of wordCharacters" class="blank-box">{{ character }}</div>
+        <div *ngFor="let character of wordCharacters"
+            [ngClass]="{'space-box': character === ' ', 'tilt-box': character === '-'}" class="blank-box">
+            {{ character }}
+        </div>
     </div>
     <div *ngIf="word?.displayClue" class="clue">{{ word?.clue }}</div>
 </div>

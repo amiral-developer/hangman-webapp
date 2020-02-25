@@ -23,6 +23,17 @@
             background-color: white;
         }
 
+        .space-box,
+        .tilt-box {
+            background-color: lightgrey;
+            border-top-width: 0;
+            border-bottom-width: 0;
+        }
+
+        .tilt-box {
+            font-size: 40px;
+        }
+
         .blank-box:first-of-type {
             border-left-width: 1px;
             border-top-left-radius: 1vw;

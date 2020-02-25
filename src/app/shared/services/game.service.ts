@@ -18,6 +18,7 @@ export class GameService {
           .map(word => new Word(word.text, word.clue))
           // avoid to manage long words :)
           .filter(word => word.text.length < 10)
+          .filter(word => word.text.includes('-'))
         )
       );
   }
