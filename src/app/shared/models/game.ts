@@ -26,7 +26,14 @@ export class Game implements IGame {
         }
 
         if (this.currentWord) {
+            // FIX ME lose objectfunctions 
+            // this.currentWord.reset();
+            this.currentWord.charactersAttempted = [];
+            this.currentWord.charactersFound = [];
             this.currentWord.displayClue = false;
+            this.currentWord.lifesRemaining = 6;
+            this.currentWord.isLose = false;
+            this.currentWord.isWin = false;
         }
 
         const random = Math.floor(Math.random() * this.words.length);

@@ -5,9 +5,13 @@ export interface IWord {
     displayClue?: boolean;
     charactersAttempted?: string[];
     charactersFound?: string[];
+    lifesRemaining?: number;
+    isLose?: boolean;
+    isWin?: boolean;
 
     fillWord: () => string[];
     attemptCharacter: (character: string) => boolean;
+    reset: () => void;
     copy: () => IWord;
 }
 
@@ -16,13 +20,23 @@ export class Word implements IWord {
     public charactersAttempted: string[];
     public charactersFound: string[];
     public displayClue: boolean;
+    public lifesRemaining: number;
+    public isLose: boolean;
+    public isWin: boolean;
 
     constructor(public text: string, public clue?: string) {
         this.text = this.text.toUpperCase();
         this.characters = this.text.split('');
+        this.reset();
+    }
+
+    public reset() {
         this.charactersAttempted = [];
         this.charactersFound = [];
         this.displayClue = false;
+        this.lifesRemaining = 6;
+        this.isLose = false;
+        this.isWin = false;
     }
 
     public fillWord(): string[] {
@@ -41,7 +55,20 @@ export class Word implements IWord {
 
         if (characterInWord) {
             this.charactersFound.push(character);
+
+            const wordFilled = this.fillWord();
+            if (wordFilled.filter(lCharacter => lCharacter !== '').length
+                === wordFilled.length) {
+                this.isWin = true;
+            }
+
             return true;
+        }
+
+        this.lifesRemaining--;
+
+        if (this.lifesRemaining === 0) {
+            this.isLose = true;
         }
 
         return false;

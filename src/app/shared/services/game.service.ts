@@ -15,8 +15,9 @@ export class GameService {
     return this.http.get<IWord[]>('assets/data/words.json')
       .pipe(
         map(words => words
-          .map(word => new Word(word.text, word.clue)
-          )
+          .map(word => new Word(word.text, word.clue))
+          // avoid to manage long words :)
+          .filter(word => word.text.length < 10)
         )
       );
   }

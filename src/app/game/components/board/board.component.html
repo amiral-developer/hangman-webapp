@@ -8,7 +8,7 @@
             </div>
         </div>
         <div class="board-hangman">
-            <app-hangman></app-hangman>
+            <app-hangman [word]="(game$ | async).currentWord"></app-hangman>
         </div>
     </div>
     <div class="board-keyboard">
