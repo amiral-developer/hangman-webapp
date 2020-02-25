@@ -1,0 +1,806 @@
+[
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Atom"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Batman"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Batgirl"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Batwoman"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Black Canary"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Blue Devil"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Booster Gold"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Captain Marvel"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Cyborg"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Starfire"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Beast Boy"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Raven"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Flash"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Firestorm"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Green Arrow"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Green Lantern"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Hawkgirl"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Hawkman"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Huntress"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Impulse"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Krypton"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Aquaman"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Black Canary"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "J'onn J'onzz"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Jessica Cruz"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Nightwing"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Nightrunner"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Oracle"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Plastic Man"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Poison Ivy"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Power Girl"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Red Arrow"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Red Hood"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Robin"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Spartan"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Steel"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Superboy"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Supergirl"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Superman"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Swamp Thing"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Vibe"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Vixen"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Wonder Woman"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Ant-Man"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Beta Ray Bill"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Blade"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Cable"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Captain America"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Captain Britain"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Captain Marvel"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Cyclope"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Daredevil"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Deadpool"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Drax le destructeur"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Docteur Strange"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Elektra"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Faucon"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Gwenpool"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Le Fauve"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "La Femme invisible"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Flèche noire"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Gambit"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Ghost Rider"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Groot"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Hercule"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Hulk"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Iceberg"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "IronMan"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "IronFist"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Jean Grey/Phénix"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Jessica Jones"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Luke Cage"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Malicia"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Miss Hulk"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Miss Marvel"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Mr Fantastique"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Moon Knight"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Namor"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Nick Fury"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Nova"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Œil-de-Faucon"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "La Panthère noire"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Le professeur Xavier"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Psylocke"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Le Punisher"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Rocket Raccoon"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Sentry"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "La Sorcière rouge"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Spider-Gwen"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Spider-Man"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Star-Lord"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Le Surfer d'argent"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Thor"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Tigra"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "La Torche humaine"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Venom"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "La Veuve noire"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Vif-Argent"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "La Vision"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "War Machine"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Wolverine"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Bane"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Batzarro"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Bizarro"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Black Manta"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Black Mask"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Brainiac"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Captain Boomerang"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Captain Cold"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Catwoman"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Circé"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Darkseid"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Deadshot"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Deathstroke"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Doomsday"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Double-Face"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Firefly"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Général Zod"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Gorilla Grodd"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Gueule d'argile"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Harley Quinn"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Hugo Strange"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Joe Chill"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Killer Croc"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Killer Frost"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Killer texth"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Lobo"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "L'Empoisonneuse"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "L’Épouvantail"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Le Chapelier Fou"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Le Joker"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Le Pingouin"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Le Sphinx"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Le Ventriloque"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Lex Luthor"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Man-Bat"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Mr. Freeze"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Ocean Master"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Parallax"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Ra'sal Ghul"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Red Hood"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Salvatore Maroni"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Silence"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Simon Hurt"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Sinestro"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Solomon Grundy"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Terrible Trio"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Zoom"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Reverse-Flash"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "L'Abomination"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Amora l'Enchanteresse"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Annihilus"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Apocalypse"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Baron Strucker"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Baron Zemo"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Beyonder"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Blackheart"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Blacklash/Whiplash"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Le Bouffon vert"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Bullseye"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Le Caïd"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Carnage"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Le Collectionneur"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Crâne rouge"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Crossbones"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Le Démolisseur"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Dents-de-sabre"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Le Destructeur"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Docteur Fatalis"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Docteur Octopus"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Dormammu"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Dracula"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Ego,la planète vivante"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Fin Fang Foom"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Galactus"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "L'Homme pourpre"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "L'Homme-taupe"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Kang"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Le Fléau"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Le Leader"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Le Lézard"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Loki"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Magnéto"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Le Maître de corvée"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Le Mandarin"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Mephisto"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Mister Sinistre"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "MODOK"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Mystique"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Onslaught"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Le Phénix noir"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Sebastian Shaw"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Séléné"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Sentry"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Skurge l'Exécuteur"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Super-Skrull"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Stryfe"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Thanos"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Ultron"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Le symbiote Venom"
+    },
+    {
+        "clue": "Lorem ipsum dolor sit amet.",
+        "text": "Vipère"
+    }
+]

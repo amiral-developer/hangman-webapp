@@ -1,15 +1,23 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
-import { IWord } from '../models/word';
+import { IWord, Word } from '../models/word';
+import { HttpClient } from '@angular/common/http';
+import { map } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
 })
 export class GameService {
 
-  constructor() { }
+  constructor(private http: HttpClient) { }
 
   public loadWords(): Observable<IWord[]> {
-    return of([]);
+    return this.http.get<IWord[]>('assets/data/words.json')
+      .pipe(
+        map(words => words
+          .map(word => new Word(word.text)
+          )
+        )
+      );
   }
 }

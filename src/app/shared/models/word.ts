@@ -1,7 +1,7 @@
 export interface IWord {
-    text: string;
+    text?: string;
     characters?: string[];
-    clue: string;
+    clue?: string;
     charactersAttempted?: string[];
     charactersFound?: string[];
 
@@ -11,11 +11,10 @@ export interface IWord {
 
 export class Word implements IWord {
     public characters: string[];
-    public clue: string;
     public charactersAttempted: string[];
     public charactersFound: string[];
 
-    constructor(public text: string) {
+    constructor(public text: string, public clue?: string) {
         this.characters = text.split('');
         this.charactersAttempted = [];
         this.charactersFound = [];

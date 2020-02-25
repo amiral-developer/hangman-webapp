@@ -12,6 +12,7 @@ const lGameReducer = createReducer(initialState,
     }),
     on(wordsLoaded, (game, { words }) => {
         game.words = words;
+        game.selectRandomWord();
         return game;
     }),
     on(attemptCharacter, (game, { character }) => {

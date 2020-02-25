@@ -5,6 +5,8 @@ export interface IGame {
     user?: IUser;
     words?: IWord[];
     currentWord?: IWord;
+
+    selectRandomWord: () => boolean;
 }
 
 export class Game implements IGame {
@@ -13,5 +15,16 @@ export class Game implements IGame {
 
     constructor(public user: IUser) {
         this.words = [];
+    }
+
+    public selectRandomWord(): boolean {
+        if (this.words.length === 0) {
+            return false;
+        }
+
+        const random = Math.floor(Math.random() * this.words.length);
+        this.currentWord = this.words[random];
+
+        return true;
     }
 }
