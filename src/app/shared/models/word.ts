@@ -2,8 +2,11 @@ export interface IWord {
     text: string;
     characters?: string[];
     clue: string;
-    charactersAttempted?: string[]
-    charactersFound?: string[]
+    charactersAttempted?: string[];
+    charactersFound?: string[];
+
+    fillWord: () => string[];
+    attemptCharacter: (character: string) => boolean;
 }
 
 export class Word implements IWord {

@@ -1,8 +1,7 @@
-import { Word } from './word';
-import { equal } from 'assert';
+import { IWord, Word } from './word';
 
 describe('Word', () => {
-  let word: Word;
+  let word: IWord;
 
   beforeEach(() => {
     word = new Word('test');
