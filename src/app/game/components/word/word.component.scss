@@ -1,0 +1,30 @@
+.word-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    .blank-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid 1px black;
+        border-left-width: 0;
+        width: 1.5vw;
+        height: 1.5vw;
+        padding: 1.5vw;
+        font-size: 1.5vw;
+        background-color: white;
+    }
+
+    .blank-box:first-of-type {
+        border-left-width: 1px;
+        border-top-left-radius: 1vw;
+        border-bottom-left-radius: 1vw;
+    }
+
+    .blank-box:last-of-type {
+        border-top-right-radius: 1vw;
+        border-bottom-right-radius: 1vw;
+    }
+}

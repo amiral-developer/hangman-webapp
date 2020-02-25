@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-word',
@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./word.component.scss']
 })
 export class WordComponent implements OnInit {
+  @Input() public word: string = 'SALUT';
+  public wordCharacters: string[];
 
   constructor() { }
 
   ngOnInit(): void {
+    this.wordCharacters = this.word.split('');
   }
 
 }
