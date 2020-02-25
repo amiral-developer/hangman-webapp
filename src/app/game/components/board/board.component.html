@@ -12,6 +12,6 @@
         </div>
     </div>
     <div class="board-keyboard">
-        <app-keyboard></app-keyboard>
+        <app-keyboard [word]="(game$ | async).currentWord"></app-keyboard>
     </div>
 </div>

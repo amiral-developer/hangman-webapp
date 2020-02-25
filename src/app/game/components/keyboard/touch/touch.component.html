@@ -1,1 +1,1 @@
-<div (click)="onClick()" class="touch">{{ letter }}</div>
+<div [ngClass]="{'disabled': disabled}" (click)="onClick()" class="touch">{{ letter }}</div>

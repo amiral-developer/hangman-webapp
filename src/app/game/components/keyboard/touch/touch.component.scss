@@ -13,6 +13,10 @@
     box-shadow: 5px 5px 5px black;
 }
 
+.touch.disabled {
+    background-color: black;
+}
+
 .touch:active {
     box-shadow: 1px 1px 1px black;
 }
