@@ -6,11 +6,12 @@ import { HangmanComponent } from './components/hangman/hangman.component';
 import { ScoreComponent } from './components/score/score.component';
 import { TouchComponent } from './components/keyboard/touch/touch.component';
 import { BoardComponent } from './components/board/board.component';
+import { ActionsComponent } from './components/actions/actions.component';
 
 
 
 @NgModule({
-  declarations: [KeyboardComponent, WordComponent, HangmanComponent, ScoreComponent, TouchComponent, BoardComponent],
+  declarations: [KeyboardComponent, WordComponent, HangmanComponent, ScoreComponent, TouchComponent, BoardComponent, ActionsComponent],
   imports: [
     CommonModule
   ],
