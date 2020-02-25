@@ -1,1 +1,10 @@
-<p>login works!</p>
+<div class="login-form">
+    <mat-form-field>
+        <mat-label>Nom</mat-label>
+        <input matInput #name maxlength="15" placeholder="Noob">
+        <mat-hint align="start"><strong>Sois pas timide, présente toi !</strong> </mat-hint>
+        <mat-hint align="end">{{name.value.length}} / 15</mat-hint>
+    </mat-form-field>
+
+    <button mat-flat-button (click)="startGame()" color="primary">Commencer à jouer !</button>
+</div>

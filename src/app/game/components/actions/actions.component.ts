@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { IState } from 'src/app/shared/store/state';
 import { Store } from '@ngrx/store';
-import { changeWord, giveClue, giveCharacter } from 'src/app/shared/store/actions/game.action';
+import { changeWord, giveClue, giveCharacter, changeWordWithJoker } from 'src/app/shared/store/actions/game.action';
 
 @Component({
   selector: 'app-actions',
@@ -16,7 +16,7 @@ export class ActionsComponent implements OnInit {
   }
 
   public changeWord() {
-    this.store.dispatch(changeWord());
+    this.store.dispatch(changeWordWithJoker());
   }
 
   public giveClue() {

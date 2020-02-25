@@ -1,7 +1,8 @@
 <mat-toolbar>
     <mat-toolbar-row>
-        <span>Hangman</span>
-        <span class="spacer"></span>
-        <mat-icon class="icon" aria-hidden="false">power_settings_new</mat-icon>
+        <span>Hangman - Super Hero & Super Vilain</span>
+        <span *ngIf="(game$ | async)?.user?.name !== ''" class="user-name">{{ (game$ | async)?.user?.name }}</span>
+        <mat-icon *ngIf="(game$ | async)?.user?.name !== ''" (click)="logout()" class="icon" aria-hidden="false">
+            power_settings_new</mat-icon>
     </mat-toolbar-row>
 </mat-toolbar>
