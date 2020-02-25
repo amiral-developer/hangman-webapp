@@ -1,0 +1,13 @@
+.score-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .score {
+        padding: 2vh;
+        border: solid 1px black;
+        border-radius: 20px;
+        margin:10px;
+    }
+}

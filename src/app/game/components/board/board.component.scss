@@ -10,7 +10,7 @@
         justify-content: center;
         align-items: center;
         height: 100%;
-        
+
         .board-informations {
             display: flex;
             flex-direction: column;
@@ -23,7 +23,7 @@
                 display: flex;
                 flex: 1;
             }
-            
+
             app-score {
                 display: flex;
                 flex: 2;
@@ -31,6 +31,13 @@
         }
 
         .board-hangman {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .board-keyboard {
             flex: 1;
             display: flex;
             justify-content: center;
