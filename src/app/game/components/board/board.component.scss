@@ -1,0 +1,29 @@
+.board {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    .board-screen {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        
+        .board-informations {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            flex: 2;
+        }
+        
+        .board-hangman {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+}
