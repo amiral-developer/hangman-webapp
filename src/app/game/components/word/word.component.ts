@@ -13,8 +13,6 @@ export class WordComponent implements OnChanges {
   constructor() { }
 
   ngOnChanges(): void {
-    console.log(this.word);
-
     if (this.word) {
       this.wordCharacters = this.word.fillWord();
     }

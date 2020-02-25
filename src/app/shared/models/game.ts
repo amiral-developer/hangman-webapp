@@ -7,6 +7,7 @@ export interface IGame {
     currentWord?: IWord;
 
     selectRandomWord: () => boolean;
+    giveClue: () => void;
     copy: () => IGame;
 }
 
@@ -23,10 +24,18 @@ export class Game implements IGame {
             return false;
         }
 
+        if (this.currentWord) {
+            this.currentWord.displayClue = false;
+        }
+
         const random = Math.floor(Math.random() * this.words.length);
         this.currentWord = this.words[random];
 
         return true;
+    }
+
+    public giveClue() {
+        this.currentWord.displayClue = true;
     }
 
     public copy(): IGame {

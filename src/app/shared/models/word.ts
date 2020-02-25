@@ -2,6 +2,7 @@ export interface IWord {
     text?: string;
     characters?: string[];
     clue?: string;
+    displayClue?: boolean;
     charactersAttempted?: string[];
     charactersFound?: string[];
 
@@ -14,12 +15,14 @@ export class Word implements IWord {
     public characters: string[];
     public charactersAttempted: string[];
     public charactersFound: string[];
+    public displayClue: boolean;
 
     constructor(public text: string, public clue?: string) {
         this.text = this.text.toUpperCase();
         this.characters = this.text.split('');
         this.charactersAttempted = [];
         this.charactersFound = [];
+        this.displayClue = false;
     }
 
     public fillWord(): string[] {
