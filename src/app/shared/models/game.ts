@@ -8,10 +8,10 @@ export interface IGame {
     currentWord?: IWord;
     ready?: boolean;
 
-    selectRandomWord: () => boolean;
-    giveClue: () => void;
-    giveCharacter: () => void;
-    copy: () => IGame;
+    selectRandomWord?: () => boolean;
+    giveClue?: () => void;
+    giveCharacter?: () => void;
+    copy?: () => IGame;
 }
 
 export class Game implements IGame {

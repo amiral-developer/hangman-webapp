@@ -18,23 +18,23 @@ describe('Word', () => {
   });
 
   it('should accept character attempted', () => {
-    expect(word.attemptCharacter('e')).toBeTrue();
-    expect(word.fillWord()).toEqual(['', 'e', '', '']);
-    expect(word.charactersAttempted.includes('e')).toBeTrue();
-    expect(word.charactersFound.includes('e')).toBeTrue();
+    expect(word.attemptCharacter('E')).toBeTrue();
+    expect(word.fillWord()).toEqual(['', 'E', '', '']);
+    expect(word.charactersAttempted.includes('E')).toBeTrue();
+    expect(word.charactersFound.includes('E')).toBeTrue();
   });
 
   it('should refuse character attempted', () => {
-    expect(word.attemptCharacter('z')).toBeFalse();
+    expect(word.attemptCharacter('Z')).toBeFalse();
     expect(word.fillWord()).toEqual(['', '', '', '']);
-    expect(word.charactersAttempted.includes('z')).toBeTrue();
-    expect(word.charactersFound.includes('z')).toBeFalse();
+    expect(word.charactersAttempted.includes('Z')).toBeTrue();
+    expect(word.charactersFound.includes('Z')).toBeFalse();
   });
 
   it('should accept character attempted and fill correctly', () => {
-    expect(word.attemptCharacter('t')).toBeTrue();
-    expect(word.fillWord()).toEqual(['t', '', '', 't']);
-    expect(word.charactersAttempted.includes('t')).toBeTrue();
-    expect(word.charactersFound.includes('t')).toBeTrue();
+    expect(word.attemptCharacter('T')).toBeTrue();
+    expect(word.fillWord()).toEqual(['T', '', '', 'T']);
+    expect(word.charactersAttempted.includes('T')).toBeTrue();
+    expect(word.charactersFound.includes('T')).toBeTrue();
   });
 });
