@@ -1,16 +1,16 @@
 import { AppPage } from './app.po';
-import { browser, logging } from 'protractor';
+import { browser, logging, By } from 'protractor';
 
 describe('workspace-project App', () => {
   let page: AppPage;
 
   beforeEach(() => {
     page = new AppPage();
+    page.navigateTo();
   });
 
-  it('should display welcome message', () => {
-    page.navigateTo();
-    expect(page.getTitleText()).toEqual('hangman-webapp app is running!');
+  it('should display app with app name', () => {
+    expect(page.getAppName()).toEqual('Hangman - Super Hero & Super Vilain');
   });
 
   afterEach(async () => {
